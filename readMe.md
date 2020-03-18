@@ -19,8 +19,10 @@ We can apply OCR-tesseract to the raw, unprocessed/brute image but exist some li
 
    Limitations
    -----------
+   If text is rotated then we must unrotated before OCR process.
+   
    I seen that the background must to be clear(without noise) as preprocessing condition.
    
-   The preprocessing openCV(cv2)-methods are two: thresh  (threshold) or blur(medianBlur).
+   The preprocessing openCV(cv2)-methods are two: thresh  (threshold: cv2.THRESH_BINARY  / cv2.THRESH_OTSU) or blur(medianBlur).
    
-   If text is rotated then we must unrotated before OCR process.
+   
