@@ -31,4 +31,4 @@ We can apply OCR-tesseract to the raw, unprocessed/brute image but exist some li
    - If text is rotated then we must unrotated before OCR process
      (see at https://pyimagesearch.com/2017/02/20/text-skew-correction-opencv-python/).
      
-   -We may obtain good or acceptable results with Tesseract for OCR, but the best accuracy will come from training custom character classifiers on specific sets of fonts that appear in actual real-world images.
+   - We may obtain good or acceptable results with Tesseract for OCR, but the best accuracy will come from training custom character classifiers on specific sets of fonts that appear in actual real-world images.
