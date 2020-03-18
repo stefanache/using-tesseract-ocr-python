@@ -18,4 +18,5 @@ In 2006, Tesseract was considered one of the most accurate open-source OCR engin
    Limitations
    -----------
    I seen that the background must to be clear(without noise) as preprocessing condition.
+   
    If text is rotated then we must unrotated before OCR process.
