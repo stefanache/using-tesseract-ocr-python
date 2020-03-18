@@ -46,7 +46,7 @@ We can apply OCR-tesseract to the raw, unprocessed/brute image but exist some li
    
    The new v4 release of Tesseract use LSTMs
 
- The EAST text detector permit to detect the location of text in an image and then OCR it.
+ The EAST text detector permit to detect the location(ROIs - Regions Of Interest) of text in an image and then OCR it.
  
  So EAST improve the OCR.
  
