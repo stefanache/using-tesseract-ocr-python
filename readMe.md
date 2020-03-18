@@ -63,4 +63,4 @@ We can apply OCR-tesseract to the raw, unprocessed/brute image but exist some li
  
  On short we can build one OCR pipeline using OpenCV+Tesseract:
  
- Input image -> OpenCV's EAST(Text Detector) -> Extract Text ROIs -> Tesseractv4 OCR with LSTM(text recognizer) -> OpenCV+Tesseract OCR Results
+ Input image -> OpenCV's EAST(Text Detector) -> Extract Text ROIs -> Tesseract v.4 OCR with LSTM(text recognizer) -> OpenCV+Tesseract OCR Results
