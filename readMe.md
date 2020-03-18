@@ -68,3 +68,12 @@ We can apply OCR-tesseract to the raw, unprocessed/brute image but exist some li
  On short we can build one OCR pipeline using OpenCV+Tesseract:
  
  Input image -> OpenCV's EAST(Text Detector) -> Extract Text ROIs -> Tesseract v.4 OCR with LSTM(text recognizer) -> OpenCV+Tesseract OCR Results
+
+Another way is Google Vision API.
+See at 
+
+Conclusion
+-----------
+
+   If neither Tesseract nor the Google Vision API obtain reasonable accuracy, you might want to reassess your dataset and decide if it’s worth it to train your own custom character classifier — this is especially true if your dataset is noisy and/or contains very specific fonts you wish to detect and recognize. 
+   Examples of specific fonts include the digits on a credit card, the account and routing numbers found at the bottom of checks, or stylized text used in graphic design.
