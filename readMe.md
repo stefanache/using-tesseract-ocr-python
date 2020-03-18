@@ -38,3 +38,5 @@ We can apply OCR-tesseract to the raw, unprocessed/brute image but exist some li
    - We may obtain good or acceptable results with Tesseract for OCR, but the best accuracy will come from training custom character classifiers on specific sets of fonts that appear in actual real-world images.
    
    - Deep learning and Convolutional Neural Networks (CNNs) are certainly enabling us to obtain higher accuracy, but we are still a long way from seeing “near perfect” OCR systems.
+   
+     The new v4 release of Tesseract use LSTMs
