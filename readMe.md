@@ -48,7 +48,9 @@ We can apply OCR-tesseract to the raw, unprocessed/brute image but exist some li
 
  The EAST text detector permit to detect the location(ROIs - Regions Of Interest) of text in an image and then OCR it.
  
- So EAST improve the OCR.
+ So EAST( Efficient and Accurate Scene Text ) improve the OCR.
+ 
+ OpenCV’s EAST detector to automatically detect text in both images and video streams.
  
  OpenCV’s EAST text detector is a deep learning model, based on a novel architecture and training pattern. 
  
