@@ -15,6 +15,10 @@ If you consult in https://en.wikipedia.org/wiki/Tesseract_(software) then you fi
 
 In 2006, Tesseract was considered one of the most accurate open-source OCR engines then available"
 
+OCR-Tesseract is one algoritm and one engine(standalone system).
+
+Pytesseract is one python biding with OCR-Tesseract wich permit to use this algorithm inner python code.
+
 We can apply OCR-tesseract to the raw, unprocessed/brute image but exist some limitations.
 
    Limitations
