@@ -48,6 +48,13 @@ We can apply OCR-tesseract to the raw, unprocessed/brute image but exist some li
 
  The EAST text detector permit to detect the location of text in an image and then OCR it.
  
- So EAST improve the OCR. 
+ So EAST improve the OCR.
+ 
+ OpenCV’s EAST text detector is a deep learning model, based on a novel architecture and training pattern. 
+ 
+ It is capable of 
+ 
+   (1) running at near real-time at 13 FPS on 720p images and 
+   (2) obtains state-of-the-art text detection accuracy.
  
  See EAST in this tutorial at https://www.pyimagesearch.com/2018/09/17/opencv-ocr-and-text-recognition-with-tesseract/
