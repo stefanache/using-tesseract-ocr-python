@@ -42,7 +42,9 @@ We can apply OCR-tesseract to the raw, unprocessed/brute image but exist some li
    
    - Deep learning and Convolutional Neural Networks (CNNs) are certainly enabling us to obtain higher accuracy, but we are still a long way from seeing “near perfect” OCR systems.
    
-     The new v4 release of Tesseract use LSTMs
+   The underlying OCR engine itself utilizes a Long Short-Term Memory (LSTM) network, a kind of Recurrent Neural Network (RNN).
+   
+   The new v4 release of Tesseract use LSTMs
 
  The EAST text detector permit to detect the location of text in an image and then OCR it.
  
