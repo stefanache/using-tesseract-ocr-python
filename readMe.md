@@ -19,8 +19,6 @@ We can apply OCR-tesseract to the raw, unprocessed/brute image but exist some li
 
    Limitations
    -----------
-   - If text is rotated then we must unrotated before OCR process
-     (see at https://pyimagesearch.com/2017/02/20/text-skew-correction-opencv-python/).
    
    - I seen that the background must to be clear(without noise) as preprocessing condition.
    
@@ -29,4 +27,7 @@ We can apply OCR-tesseract to the raw, unprocessed/brute image but exist some li
    The preprocessing openCV(cv2)-methods are two: thresh  (threshold: cv2.THRESH_BINARY  / cv2.THRESH_OTSU) or blur(medianBlur).
    
    The preprocesing is optional but if the image need denoise and we not aply the filtering(before at OCR-process) then can obtain errors.
+   
+   - If text is rotated then we must unrotated before OCR process
+     (see at https://pyimagesearch.com/2017/02/20/text-skew-correction-opencv-python/).
    
