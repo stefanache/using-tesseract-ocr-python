@@ -45,4 +45,7 @@ We can apply OCR-tesseract to the raw, unprocessed/brute image but exist some li
      The new v4 release of Tesseract use LSTMs
 
  The EAST text detector permit to detect the location of text in an image and then OCR it.
- So EAST improve the OCR.
+ 
+ So EAST improve the OCR. 
+ 
+ See EAST in this tutorial at https://www.pyimagesearch.com/2018/09/17/opencv-ocr-and-text-recognition-with-tesseract/
