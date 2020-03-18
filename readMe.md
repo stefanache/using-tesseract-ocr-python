@@ -60,3 +60,7 @@ We can apply OCR-tesseract to the raw, unprocessed/brute image but exist some li
       (2) obtains state-of-the-art text detection accuracy.
  
  See EAST in this tutorial at https://www.pyimagesearch.com/2018/09/17/opencv-ocr-and-text-recognition-with-tesseract/
+ 
+ On short we can build one OCR pipeline using OpenCV+Tesseract:
+ 
+ Input-image -> OpenCV's EAST(Text Detector) -> Extract Text ROISs -> Tesseractv4 OCR with LSTM(text recognizer) -> OpenCV+Tesseract OCR Results
