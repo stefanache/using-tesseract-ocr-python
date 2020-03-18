@@ -75,5 +75,9 @@ See at https://cloud.google.com/vision/
 Conclusion
 -----------
 
-      If neither Tesseract nor the Google Vision API obtain reasonable accuracy, you might want to reassess your dataset and decide if it’s worth it to train your own custom character classifier — this is especially true if your dataset is noisy and/or contains very specific fonts you wish to detect and recognize. 
-      Examples of specific fonts include the digits on a credit card, the account and routing numbers found at the bottom of checks, or stylized text used in graphic design.
+      If neither Tesseract nor the Google Vision API obtain reasonable accuracy,you might want to 
+      reassess your dataset and decide if it’s worth it to train 
+      your own custom character classifier — this is especially true if your dataset is noisy and/or 
+      contains very specific fonts you wish to detect and recognize. 
+      Examples of specific fonts include the digits on a credit card, the account and routing numbers 
+      found at the bottom of checks, or stylized text used in graphic design.
