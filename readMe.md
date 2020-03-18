@@ -27,4 +27,5 @@ We can apply OCR-tesseract to the raw, unprocessed/brute image but exist some li
    
    The preprocessing openCV(cv2)-methods are two: thresh  (threshold: cv2.THRESH_BINARY  / cv2.THRESH_OTSU) or blur(medianBlur).
    
+   The preprocesing is optional but if the image need denoise and we not aply the filtering(before at OCR-process) then can obtain errors.
    
