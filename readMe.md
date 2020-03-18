@@ -19,7 +19,8 @@ We can apply OCR-tesseract to the raw, unprocessed/brute image but exist some li
 
    Limitations
    -----------
-   - If text is rotated then we must unrotated before OCR process.
+   - If text is rotated then we must unrotated before OCR process
+     (see at https://pyimagesearch.com/2017/02/20/text-skew-correction-opencv-python/).
    
    - I seen that the background must to be clear(without noise) as preprocessing condition.
    
