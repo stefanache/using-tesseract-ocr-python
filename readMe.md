@@ -19,4 +19,6 @@ In 2006, Tesseract was considered one of the most accurate open-source OCR engin
    -----------
    I seen that the background must to be clear(without noise) as preprocessing condition.
    
+   The preprocessing methods are two: thresh  (threshold) or blur.
+   
    If text is rotated then we must unrotated before OCR process.
