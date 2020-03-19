@@ -4,7 +4,7 @@ Optical Character Recognition (OCR)
 
 In this procedure intend to discuss about using tesseract-OCR with Python and OpenCV(cv2).
 
-The ref by me was this tutorial : https://www.pyimagesearch.com/2017/07/10/using-tesseract-ocr-python/
+The ref for me was this tutorial : https://www.pyimagesearch.com/2017/07/10/using-tesseract-ocr-python/
 
 Remembr that in https://github.com/stefanache/install_Tesseract4_for_Python3.7 we discuss about 
 
